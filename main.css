@@ -9,18 +9,25 @@
 
 /*header top section*/
 .header-top-section{
+	width: 100vw;
+	height: 60px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: center;
 }
 
 .header-amazon-logo{
 	height: 50px;
 	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 30px;
 }
 
 .header-input-box{
-	width: 500px;
+	width: 400px;
 	height: 25px;
 }
 
@@ -34,16 +41,79 @@
 
 /*header bottom section*/
 .header-bottom-section{
+	width: 100vw;
+	height: 60px;
 	display: flex;
 	flex-direction: row;
+}
+
+.header-bottom-block-one{
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: #ffffff;
 }
 
 .header-bottom-block-two{
+	width: 40vw;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	color: #c2c2c3;
 }
 
 .header-bottom-block-three{
+	width: 40vw;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	color: #ffffff;
+}
+
+/*end of header section*/
+
+.place-holder-for-slick-slider{
+	width: 100vw;
+	height: 300px;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2017/EDITORIAL/NYNY/GATEWAY/HEROES/1X/NYNY_M_S_Athletic_1x._CB522952028_.jpg");
+	background-repeat: no-repeat;
+}
+
+.personalized-area{
+	width: 100vw;
+	height: 70px;
+	background-color: #232f3e;
+}
+
+.place-holder-for-slick-slider-two{
+	width: 100vw;
+	height: 250px;
+	background-color: gray;
+}
+
+
+
+
+
+
+/*slider test*/
+#slider-test{
+width: 100vw;
+height: 100px;	
+}
+
+.test-1{
+	background-color: blue;
+	height: 100px;
+}
+
+.test-2{
+	background-color: green;
+	height: 100px;
+}
+
+.test-3{
+	background-color: red;
+	height: 100px;
 }
