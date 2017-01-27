@@ -21,7 +21,7 @@
 	height: 50px;
 	width: 100px;
 	position: absolute;
-	top: 0;
+	top: -2;
 	left: 0;
 	margin-left: 30px;
 }
@@ -92,28 +92,73 @@
 	background-color: gray;
 }
 
-
-
-
-
-
 /*slider test*/
-#slider-test{
-width: 100vw;
-height: 100px;	
+
+
+#test-1{
+	width: 100vw;
+	height: 300px;
 }
 
-.test-1{
-	background-color: blue;
-	height: 100px;
+
+
+/*TV AND FITNESS*/
+.tv-fitness-container{
+	width: 100vh;
+	height: 200px;
+	display: flex;
 }
 
-.test-2{
-	background-color: green;
-	height: 100px;
+/*START OF FOOTER*/
+.back-to-top-container{
+	width: 100vw;
+	height: 50px;
+	background-color: #37475A;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.test-3{
-	background-color: red;
-	height: 100px;
+.footer-all-links-container{
+	width: 100vw;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #232f3e;
+}
+
+.all-links-container-1{
+ width: 260px;
+ height: 260px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ color: white;
+}
+
+.country-options{
+	width: 100vw;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #232f3e;
+	border-top:solid white;
+}
+
+.footer-amazon-logo{
+ height: 100px;
+ width: 100vw;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.footer-country-list{
+	width: 100vw;
+	height: 30px;
+	display: flex;
+	justify-content: center;
 }
